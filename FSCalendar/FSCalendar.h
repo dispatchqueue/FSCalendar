@@ -491,6 +491,9 @@ IB_DESIGNABLE
  */
 - (CGRect)frameForDate:(NSDate *)date;
 
+- (void)scrollToDate:(NSDate *)date;
+- (void)scrollToDate:(NSDate *)date animated:(BOOL)animated;
+
 
 @end
 
