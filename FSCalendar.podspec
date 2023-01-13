@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.framework    = 'UIKit', 'QuartzCore'
   s.source_files = 'FSCalendar/*.{h,m}'
+  s.exclude_files = 'FSCalendar/FSCalendar-umbrella.h'
 
 end
